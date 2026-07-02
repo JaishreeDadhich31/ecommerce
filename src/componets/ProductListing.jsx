@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import axios from 'axios';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 
 export default function ProductListing({ product }) {
 

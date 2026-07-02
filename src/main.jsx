@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Home from './componets/Home'
 import './assets/css/style.css'
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from './componets/AboutUs';
 import ContactUs from './componets/ContactUs';
 import ProductListing from './componets/ProductListing';
